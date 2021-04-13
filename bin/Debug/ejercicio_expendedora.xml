@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ejercicio_expendedora</name>
+    </assembly>
+    <members>
+        <member name="M:ejercicio_expendedora.Expendedora.ListarDisponibles(System.Int16)">
+            <summary>
+            Lista las latas disponible con el formato especificado por ver
+            </summary>
+            <exception cref="T:ejercicio_expendedora.Expendedora.ExceptionMaquinaVacia">No hay latas para mostrar</exception>
+            <exception cref="T:ejercicio_expendedora.Expendedora.ExceptionEncendido">Cuando se llama a la funcion mientras la maquina no esta encendida</exception>
+        </member>
+        <member name="M:ejercicio_expendedora.Expendedora.AgregarLata(ejercicio_expendedora.Lata)">
+            <summary>
+            Inserta un nuevo tipo de lata o agrega el stock si el codigo ya existia
+            </summary>
+            <exception cref="T:ejercicio_expendedora.Expendedora.ExceptionCapacidad">Cuando si se anadieran las latas solicitadas se superaria la capacidad disponible</exception>
+            <exception cref="T:ejercicio_expendedora.Expendedora.ExceptionEncendido">Cuando se llama a la funcion mientras la maquina no esta encendida</exception>
+        </member>
+        <member name="M:ejercicio_expendedora.Expendedora.VenderLata(System.String,System.Double,System.Double@)">
+            <summary>
+            Reduce en 1 el stock de la lata solicitada e incrementa dinero por el precio de la lata
+            </summary>
+            <param name="_codigo">Codigo de lata a vender</param>
+            <param name="dinero_insertado">Dinero insertado por el comprador</param>
+            <param name="cambio"> Dinero a devolver</param>
+            <exception cref="T:System.InvalidOperationException">Cuando el codigo de lata ingresado no existe</exception>
+            <exception cref="T:ejercicio_expendedora.Lata.ExceptionStockCero">El stock de la lata solicitada es cero</exception>
+            <exception cref="T:ejercicio_expendedora.Expendedora.ExceptionEncendido">Cuando se llama a la funcion mientras la maquina no esta encendida</exception>
+        </member>
+        <member name="M:ejercicio_expendedora.Expendedora.GetBalance">
+            <summary>
+            Devuelve el saldo en dinero y el total de latas
+            </summary>
+            <exception cref="T:ejercicio_expendedora.Expendedora.ExceptionEncendido">Cuando se llama a la funcion mientras la maquina no esta encendida</exception>
+        </member>
+        <member name="M:ejercicio_expendedora.Lata.ToString(System.Int16)">
+             <summary>
+             Devuelve string formateado
+             </summary>
+             <param name="ver">0 detalle completo
+            1 codigo, nombre y cantidad
+            2 1 + precio</param>
+            <exception cref="T:ejercicio_expendedora.Lata.ExceptionLataString">Cuando se solicito un tipo de reporte no formateado</exception>
+        </member>
+    </members>
+</doc>

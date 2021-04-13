@@ -1,0 +1,15 @@
+C:\Users\herna\source\repos\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.csproj.CoreCompileInputs.cache
+C:\Users\herna\source\repos\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.exe.config
+C:\Users\herna\source\repos\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.exe
+C:\Users\herna\source\repos\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.pdb
+C:\Users\herna\source\repos\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.exe
+C:\Users\herna\source\repos\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.pdb
+C:\Users\herna\source\repos\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.csprojAssemblyReference.cache
+D:\Github\CAI-2021-1C\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.csprojAssemblyReference.cache
+D:\Github\CAI-2021-1C\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.csproj.CoreCompileInputs.cache
+D:\Github\CAI-2021-1C\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.exe.config
+D:\Github\CAI-2021-1C\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.xml
+D:\Github\CAI-2021-1C\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.exe
+D:\Github\CAI-2021-1C\ejercicio_expendedora\bin\Debug\ejercicio_expendedora.pdb
+D:\Github\CAI-2021-1C\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.exe
+D:\Github\CAI-2021-1C\ejercicio_expendedora\obj\Debug\ejercicio_expendedora.pdb
