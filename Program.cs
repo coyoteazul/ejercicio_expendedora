@@ -47,8 +47,18 @@ namespace ejercicio_expendedora
 
         static string GetStringInput (string message)
         {
+            
             Console.WriteLine(message);
-            return Console.ReadLine();
+            string input = Console.ReadLine();
+            if (input == "")
+            {
+                Console.WriteLine("Debes ingresar un valor");
+                return GetStringInput(message);
+            }
+            else
+            {
+                return input;
+            }
         }
 
         static double GetDoubleInput (string message)
